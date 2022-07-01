@@ -9,4 +9,3 @@ print(f"CONNECT:\n{user}\n{addr}")
 user.send('You are connected'.encode('UTF-8'))
 msg=user.recv(1024).decode('utf-8')
 print(f'user msg:\n\t{msg}')
-
