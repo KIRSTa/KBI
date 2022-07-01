@@ -1,4 +1,4 @@
-from http import client
+
 from socket import *
 
 c=socket(AF_INET, SOCK_STREAM)
